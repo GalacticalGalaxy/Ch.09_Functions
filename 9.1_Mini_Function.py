@@ -22,7 +22,20 @@ OUTPUT
 -100
 A
 
+
+
 The function should return the value, not print the value. 
 Also, while there is a min function built into Python, don't use it. 
 Please use if statements and practice creating it yourself.
 '''
+def mini(A,B,C):
+    D = "Tie"
+    if A > B and C > B:
+        return B
+    elif A < B and A < C:
+        return A
+    elif C < A and C < B:
+        return C
+    else:
+        return D
+

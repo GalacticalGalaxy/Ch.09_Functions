@@ -31,3 +31,15 @@ oooooooooo
 oooooooooo
 oooooooooo
 '''
+
+
+
+
+def box(l,w):
+    for i in range (w):
+        print()
+        for i in range(l):
+            print("o", end="" )
+
+
+box(3,2)

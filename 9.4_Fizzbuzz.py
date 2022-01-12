@@ -34,3 +34,18 @@ fizzbuzz
 
 The classic test is to use the numbers 1-100 so make sure you test that with your function.
 '''
+
+def fizzbuss(x):
+    for i in range(1,x+1):
+        if i%15 == 0:
+            print("FIZZBUZZZZZZ")
+        elif i%5 == 0:
+            print("Buzz")
+        elif i%3 == 0:
+            print("Fizz")
+        else:
+            print(i)
+def myporgram():
+    fizzbuss(100)
+
+myporgram()
